@@ -1,0 +1,50 @@
+
+<script>
+function validateform(){  
+var username=document.myform.username.value;  
+var email=document.myform.email.value;  
+ if (username==null || username==""){
+alert("Name can't be blank");  
+  return false;  
+}else if(email==null || email==""){  
+alert("Email cannot be blank");  
+  return false;  
+  }  
+}  
+</script>
+<html>
+<head>
+	<style>
+		.home{
+			background-color: pink;
+		}
+		.about{
+			background-color: pink;
+		}
+		.title{
+			color:blue;
+			background-color: pink;
+			font-size: 20;
+		}
+	</style>
+</head>
+<body class="home">
+<form name="myform"method="post” action="redirection.html" onsubmit="return validateform()" >
+<h1 class="about"><center>FAMILY RESTAURANT</center></h1>
+<imgsrc="https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466__340.jpg" align="right" width="1000"/>
+<fieldset>
+<legend class="title">RESTAURANT BOOKING</legend>
+<p class="title">The modality of table reservations helps restaurants to estimate demand in a more accurate way, and therefore, to improve sourcing and staffing, and to manage costs more efficiently.</p>
+<ol>
+<li class="title"><label for="firstlast"><b>Name:</b></label>
+<input type="text" name="username" id="firstlast"></li>
+<li class="title"><label for="email"><b>Email:</b></label>
+<input type="text" name="email" id="email"></li>
+</ol>
+<input type="submit" value="Register">
+</fieldset>
+</form>
+</body>
+</html>
+
+
