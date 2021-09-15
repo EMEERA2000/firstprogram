@@ -1,0 +1,124 @@
+<html>
+<head>
+	<title>Passport Registration</title>
+	<style type="text/css">
+.Heading1
+     {
+	background: pink;
+	color: black
+     }
+     #font1
+     {
+	color: violet;
+     }
+     #font2
+     {
+	color: red;
+     }
+.column {
+  float: left;
+  width: 40%;
+  padding: 12px;
+  height: 150px;
+
+}
+#row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	</style>
+</head>
+<body bgcolor="linen">
+<form name="myform" method="post" action="Assignment1.html">
+	<fieldset class="Heading1">
+		Note: Columns marked with * are compulsory to fill in <br/><br/>
+		<font id=font1>&nbsp;Indian Mission</font><font id=font2>*</font><select>
+			<option>select any mission</option>
+			<option>USA-SAN FRANCISCO</option>
+			<option>Malawi</option>
+			<option>Malta</option>
+		</select><br/>
+		<font id=font1>Service Desired</font><font id=font2>*</font><select>
+			<option>Select Service</option>
+			<option>Army Air Defence.</option>
+			<option>Army Aviation Corps.</option>
+			<option>The Armoured Corps.</option>
+		</select><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Surname</font><input type="text" name="name"/><br/>
+		<font id=font1>&nbsp;&nbsp;Given Name/s</font><font id=font2>*</font><input type="text" name="givenname"/>
+		<p id="font1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Name should be in full inside and Mr, Mrs, Dr are not allowed)</p>
+	</fieldset>
+<div id="row" style="background-color:linen">
+	<p style="color:red"> If you have ever changed your name click the box <input type="checkbox" name="box"/> and indicate previous name in full</p>
+<div class="column" style="background-color:linen">
+<fieldset class="Heading1">
+<font id=font1>&nbsp;&nbsp;&nbsp;Previous Name</font><input type="text" name="previousname"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sex</font><font id=font2>*</font><select>
+			<option>select sex</option>
+			<option>Male</option>
+			<option>Female</option>
+		</select><br/>
+		<font id=font1>&nbsp;&nbsp;Place of Birth</font><font id=font2>*</font><input type="text" name="city"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qualification</font><input type="text" name="qualification"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;Visible Mark</font><font id=font2>*</font><input type="text" name="marks"/><br/>
+		<font id=font1>&nbsp;&nbsp;Color of eyes</font><font id=font2>*</font><input type="text" name="eyes"/>
+		</fieldset>	
+</div>
+<div class="column" style="background-color:linen">
+<fieldset class="Heading1">
+		<legend></legend>
+<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date of Birth</font></font><font id=font2>*</font><input type="text" name="birth"/>(DD/MM/YYYY)<br/>
+		<font id=font1>District/Country</font><font id=font2>*</font><input type="text" name="country"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Profession</font><input type="text" name="profession"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Height(cms)</font><font id=font2>*</font><input type="text" name="height"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Color of hair</font><font id=font2>*</font><input type="text" name="hair"/>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		</fieldset>	
+
+</div>
+</div>
+
+<div id="row" style="background-color:linen">
+<div class="column" style="background-color:linen">
+<fieldset class="Heading1">
+<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address to be printed in passport</font><font id=font2>*</font><input type="text" name="passport"/><br/>
+		<font id=font1>Atleast first two address lines are to be filled<input type="text" name="address"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone No</font><input type="text" name="phoneno"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email Address</font><input type="text" name="email"/>
+		</fieldset>	
+</div>
+<div class="column" style="background-color:linen">
+<fieldset class="Heading1">
+<font id=font1>Other address</font></font><font id=font2>*</font><input type="text" name="otheraddress"/><br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address1"/><br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address2"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile No</font><input type="text" name="mobileno"/>
+		</fieldset>	
+</div>
+</div>
+<fieldset class="Heading1">
+	Applicant's family information (All names should be in full,initials and titles such as Mr,Mrs,Dr etc are not allowed <br/><br/>
+	<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marital status</font><font id=font2>*</font><select>
+			<option>select marital status</option>
+			<option>Single</option>
+			<option>Married</option>
+		</select><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spouse's name</font><input type="text" name="spousename"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spouse nationality</font><input type="text" name="nationality"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Father's name</font><font id=font2>*</font><input type="text" name="fathername"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Father's Birth country</font><input type="text" name="nationality"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;nationality of father at the time of applicant's birth</font><input type="text" name="nationality"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mother's Name</font><font id=font2>*</font><input type="text" name="givenname"/><br/>
+		<font id=font1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Motherr's Birth country</font><input type="text" name="nationality"/><br/>
+		<font id=font1>&nbsp;&nbsp;nationality of mother at the time of applicant's birth</font><input type="text" name="nationality"/><br/>
+</fieldset><br/>
+<input type="submit" value="Submit form"/>
+</form>
+</body>
+</html>
