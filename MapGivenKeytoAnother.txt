@@ -1,0 +1,18 @@
+import java.util.SortedMap;
+import java.util.TreeMap;
+
+public class MapGivenKeytoAnother {
+	 public static void main(String args[]) {
+		 TreeMap<Integer,String> tm = new TreeMap<Integer,String>();
+		  SortedMap<Integer,String> sm = new TreeMap<Integer,String>();
+		  tm.put(1, "pink");
+		  tm.put(2, "yellow");
+		  tm.put(3, "green");
+		  tm.put(4, "White");
+		  tm.put(5, "orange");
+		  System.out.println("TreeMap: "+tm);
+		  
+		  sm=tm.subMap(2,5);
+		  System.out.println("Sub map: "+sm);
+	 }
+}

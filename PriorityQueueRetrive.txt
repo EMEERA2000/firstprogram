@@ -1,0 +1,21 @@
+import java.util.PriorityQueue;
+
+public class PriorityQueueRetrive {
+	  public static void main(String[] args) {
+		 
+	   PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+	     
+	   pq.offer(22);
+	   pq.offer(32);
+	   pq.offer(66);
+	   pq.offer(15);
+	   pq.offer(16);
+	   pq.offer(20);
+	   pq.offer(60);
+	   pq.offer(90);
+	   pq.offer(42);
+	  
+	   System.out.println("Original PriorityQueue: "+pq);
+	   System.out.println("Retrived element: "+pq.peek());
+	   }    
+}
